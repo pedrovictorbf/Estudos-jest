@@ -1,0 +1,17 @@
+{
+  "name": "ProjetoApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test" : "jest ./test",
+    "cli": "node cli.js ./text.md"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
